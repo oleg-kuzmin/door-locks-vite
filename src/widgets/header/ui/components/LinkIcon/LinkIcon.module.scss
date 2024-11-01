@@ -22,15 +22,15 @@
   }
 
   &_Type_Cart {
-    background-image: url('/icons/link-item-cart.svg');
+    background-image: url('/icons/link-icon-cart.svg');
     &::after {
-      background-image: url('/icons/link-item-cart-hover.svg');
+      background-image: url('/icons/link-icon-cart-hover.svg');
     }
   }
   &_Type_Like {
-    background-image: url('/icons/link-item-like.svg');
+    background-image: url('/icons/link-icon-like.svg');
     &::after {
-      background-image: url('/icons/link-item-like-hover.svg');
+      background-image: url('/icons/link-icon-like-hover.svg');
     }
   }
 
