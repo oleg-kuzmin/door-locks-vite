@@ -1,0 +1,13 @@
+@use 'shared/styles' as *;
+
+.NavigationArrow {
+  width: 14px;
+  height: 14px;
+  background: url('/icons/navigation-arrow.svg') center no-repeat;
+  transition: rotate $hover;
+
+  &_Active {
+    rotate: 180deg;
+    background-image: url('/icons/navigation-arrow-active.svg');
+  }
+}
