@@ -1,0 +1,6 @@
+@use 'shared/styles' as *;
+
+.NavigationList {
+  display: flex;
+  gap: 32px;
+}
