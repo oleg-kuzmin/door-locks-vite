@@ -1,0 +1,1 @@
+export { useCatalogPanel } from './hooks';
