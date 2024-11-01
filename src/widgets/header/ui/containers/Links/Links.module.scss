@@ -1,0 +1,9 @@
+@use 'shared/styles' as *;
+
+.Links {
+  display: flex;
+  gap: 16px;
+  @include media-desktop {
+    gap: 24px;
+  }
+}

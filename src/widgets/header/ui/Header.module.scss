@@ -16,12 +16,4 @@
       display: none;
     }
   }
-
-  &__Icons {
-    display: flex;
-    gap: 16px;
-    @include media-desktop {
-      gap: 24px;
-    }
-  }
 }
