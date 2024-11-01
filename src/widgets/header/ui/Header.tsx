@@ -5,6 +5,7 @@ import { Logo } from './components/Logo';
 import { Banner } from './containers/Banner';
 import { HeaderContent } from './containers/HeaderContent';
 import { Links } from './containers/Links';
+import { Navigation } from './containers/Navigation';
 import styles from './Header.module.scss';
 
 interface HeaderProps {
@@ -19,12 +20,13 @@ export function Header({ className }: Readonly<HeaderProps>) {
       <HiddenHeading />
       <Banner />
       <HeaderContent>
-        <Logo className={styles.Header__Logo} />
         <ButtonBurgerPanel
           className={styles.Header__ButtonBurgerPanel}
           isActive={false}
           onClick={() => console.log('Click')}
         />
+        <Logo className={styles.Header__Logo} />
+        <Navigation />
         <Links>
           <LinkIcon counter={8} href="#" type="like" />
           <LinkIcon counter={10} href="#" type="cart" />
