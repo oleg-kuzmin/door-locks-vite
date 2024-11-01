@@ -1,0 +1,12 @@
+@use 'shared/styles' as *;
+
+.HeaderContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 70px;
+  @include content;
+  @include media-laptop {
+    min-height: 82px;
+  }
+}

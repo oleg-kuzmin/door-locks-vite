@@ -3,6 +3,7 @@ import { HiddenHeading } from './components/HiddenHeading';
 import { LinkIcon } from './components/LinkIcon';
 import { Logo } from './components/Logo';
 import { Banner } from './containers/Banner';
+import { HeaderContent } from './containers/HeaderContent';
 import styles from './Header.module.scss';
 
 interface HeaderProps {
@@ -16,7 +17,7 @@ export function Header({ className }: Readonly<HeaderProps>) {
     <header className={styles.Header + externalClass}>
       <HiddenHeading />
       <Banner />
-      <div className={styles.Header__Content}>
+      <HeaderContent>
         <Logo className={styles.Header__Logo} />
         <ButtonBurgerPanel
           className={styles.Header__ButtonBurgerPanel}
@@ -27,7 +28,7 @@ export function Header({ className }: Readonly<HeaderProps>) {
           <LinkIcon counter={8} href="#" type="like" />
           <LinkIcon counter={10} href="#" type="cart" />
         </div>
-      </div>
+      </HeaderContent>
     </header>
   );
 }
