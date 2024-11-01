@@ -1,0 +1,7 @@
+@use 'shared/styles' as *;
+
+.NavigationLink {
+  @include font-pro-text-300(20px, 24px);
+  @include effect-hover-main;
+  @include effect-focus-main;
+}

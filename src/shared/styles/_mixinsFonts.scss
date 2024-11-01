@@ -48,14 +48,14 @@
 // }
 
 //# text
-// @mixin font-pro-text-300($_size, $_lineHeight: 1, $_letterSpacing: normal) {
-//   font-style: normal;
-//   font-weight: 300;
-//   font-size: $_size;
-//   line-height: $_lineHeight;
-//   font-family: $proText;
-//   letter-spacing: $_letterSpacing;
-// }
+@mixin font-pro-text-300($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+  font-style: normal;
+  font-weight: 300;
+  font-size: $_size;
+  line-height: $_lineHeight;
+  font-family: $proText;
+  letter-spacing: $_letterSpacing;
+}
 
 // @mixin font-pro-text-400($_size, $_lineHeight: 1, $_letterSpacing: normal) {
 //   font-style: normal;
