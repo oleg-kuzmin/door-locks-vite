@@ -1,0 +1,15 @@
+@use 'shared/styles' as *;
+
+.Counter {
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: $main;
+  color: $white;
+  @include font-roboto-500(12px);
+}

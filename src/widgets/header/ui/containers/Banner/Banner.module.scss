@@ -1,0 +1,36 @@
+@use 'shared/styles' as *;
+
+.Banner {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 36px;
+  background-color: $grey;
+  color: $white;
+  @include font-pro-display-400(12px, 12px, 0.02em);
+  @include media-laptop {
+    min-height: 44px;
+    @include font-pro-display-500(16px, 26px, 0.12em);
+  }
+
+  &__Text {
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  &__LinkCallForm {
+    display: none;
+    @include media-laptop {
+      display: revert;
+      position: absolute;
+      right: 20px;
+      @include effect-hover-main;
+      @include effect-focus-main;
+    }
+    @include media-desktop {
+      right: 100px;
+    }
+  }
+}

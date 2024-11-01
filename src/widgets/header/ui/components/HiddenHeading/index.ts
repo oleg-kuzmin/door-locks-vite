@@ -1,0 +1,1 @@
+export { HiddenHeading } from './HiddenHeading';
