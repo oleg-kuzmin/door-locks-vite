@@ -8,9 +8,5 @@ interface BurgerListProps {
 
 export function BurgerList({ children, className }: Readonly<BurgerListProps>) {
   const externalClass = className ? ` ${className}` : '';
-  return (
-    <nav>
-      <ul className={styles.BurgerList + externalClass}>{children}</ul>
-    </nav>
-  );
+  return <ul className={styles.BurgerList + externalClass}>{children}</ul>;
 }
