@@ -21,7 +21,7 @@ export function CatalogPanel({ isActive, className }: Readonly<CatalogPanelProps
   console.log(isStartImageAnimation);
 
   return (
-    <CSSTransition nodeRef={nodeRef} in={true} classNames={{ ...styles }} timeout={timeout} unmountOnExit>
+    <CSSTransition nodeRef={nodeRef} in={isActive} classNames={{ ...styles }} timeout={timeout} unmountOnExit>
       <div className={styles.CatalogPanel + externalClass} ref={nodeRef}>
         <CatalogNavigation>
           <CatalogList>
