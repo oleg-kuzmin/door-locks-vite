@@ -1,1 +1,1 @@
-export { useCatalogPanel } from './hooks';
+export { useCatalogPanel, useBurgerPanel } from './hooks';

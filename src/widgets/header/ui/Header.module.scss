@@ -1,7 +1,14 @@
 @use 'shared/styles' as *;
 
 .Header {
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  background-color: rgba($color: $white, $alpha: 0.95);
   box-shadow: inset 0 -1px 0 0 $lightGrey;
+  @include media-laptop {
+    position: static;
+  }
 
   &__Logo {
     display: none;
@@ -30,6 +37,16 @@
     @include media-desktop {
       display: flex;
       margin-right: 31px;
+    }
+  }
+
+  &__BurgerPanel {
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    top: 100%;
+    @include media-laptop {
+      display: none;
     }
   }
 }

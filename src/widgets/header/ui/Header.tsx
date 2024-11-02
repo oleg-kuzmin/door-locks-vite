@@ -6,7 +6,8 @@ import { Banner } from './containers/Banner';
 import { HeaderContent } from './containers/HeaderContent';
 import { Links } from './containers/Links';
 import { Navigation } from './containers/Navigation';
-import { LinkTel } from 'shared/ui';
+import { useBurgerPanel } from 'shared/lib';
+import { BurgerPanel, LinkTel } from 'shared/ui';
 import styles from './Header.module.scss';
 
 interface HeaderProps {
@@ -14,6 +15,7 @@ interface HeaderProps {
 }
 
 export function Header({ className }: Readonly<HeaderProps>) {
+  const [isActiveBurgerPanel, toggleBurgerPanel] = useBurgerPanel();
   const externalClass = className ? ` ${className}` : '';
 
   return (
@@ -23,8 +25,8 @@ export function Header({ className }: Readonly<HeaderProps>) {
       <HeaderContent>
         <ButtonBurgerPanel
           className={styles.Header__ButtonBurgerPanel}
-          isActive={false}
-          onClick={() => console.log('Click')}
+          isActive={isActiveBurgerPanel}
+          onClick={toggleBurgerPanel}
         />
         <Logo className={styles.Header__Logo} />
         <Navigation className={styles.Header__Navigation} />
@@ -34,6 +36,7 @@ export function Header({ className }: Readonly<HeaderProps>) {
           <LinkIcon counter={10} href="#" type="cart" />
         </Links>
       </HeaderContent>
+      <BurgerPanel className={styles.Header__BurgerPanel} isActive={isActiveBurgerPanel} />
     </header>
   );
 }

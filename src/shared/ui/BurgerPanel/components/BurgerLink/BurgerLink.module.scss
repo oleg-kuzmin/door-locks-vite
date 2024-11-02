@@ -1,0 +1,11 @@
+@use 'shared/styles' as *;
+
+.BurgerLink {
+  display: inline-block;
+  width: 100%;
+  padding: 17px 0 14px;
+  color: $grey;
+  @include font-16-reg-16_26;
+  @include effect-hover-main;
+  @include effect-focus-main;
+}

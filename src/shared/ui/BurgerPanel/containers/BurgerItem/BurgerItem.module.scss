@@ -1,0 +1,12 @@
+@use 'shared/styles' as *;
+
+.BurgerItem {
+  border-bottom: 1px solid $stroke;
+
+  &_Arrow {
+    background-image: url('/icons/burger-item-arrow.svg');
+    background-position: right 0 top 17px;
+    background-size: 24px;
+    background-repeat: no-repeat;
+  }
+}

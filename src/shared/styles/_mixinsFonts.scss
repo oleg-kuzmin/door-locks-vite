@@ -29,14 +29,14 @@
   letter-spacing: $_letterSpacing;
 }
 
-// @mixin font-pro-display-600($_size, $_lineHeight: 1, $_letterSpacing: normal) {
-//   font-style: normal;
-//   font-weight: 600;
-//   font-size: $_size;
-//   line-height: $_lineHeight;
-//   font-family: $proDisplay;
-//   letter-spacing: $_letterSpacing;
-// }
+@mixin font-pro-display-600($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+  font-style: normal;
+  font-weight: 600;
+  font-size: $_size;
+  line-height: $_lineHeight;
+  font-family: $proDisplay;
+  letter-spacing: $_letterSpacing;
+}
 
 // @mixin font-pro-display-700($_size, $_lineHeight: 1, $_letterSpacing: normal) {
 //   font-style: normal;
@@ -206,13 +206,13 @@
 //   font-family: $proText;
 // }
 
-// @mixin font-16-reg-16_26 {
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 16px;
-//   line-height: 26px;
-//   font-family: $proText;
-// }
+@mixin font-16-reg-16_26 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: $proText;
+}
 
 // @mixin font-16-light-16_26 {
 //   font-style: normal;

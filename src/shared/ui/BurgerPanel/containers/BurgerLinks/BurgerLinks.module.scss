@@ -1,0 +1,19 @@
+@use 'shared/styles' as *;
+
+.BurgerLinks {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 61px;
+  gap: 20px;
+
+  @include media-mobile-M {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  @include media-mobile-L {
+    justify-content: start;
+    gap: 30px;
+  }
+}
