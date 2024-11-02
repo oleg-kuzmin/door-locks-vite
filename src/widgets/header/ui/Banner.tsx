@@ -1,4 +1,4 @@
-import { BannerText } from '../../components/BannerText';
+import { BannerText } from './BannerText';
 import { LinkCallForm } from 'shared/ui';
 import styles from './Banner.module.scss';
 
