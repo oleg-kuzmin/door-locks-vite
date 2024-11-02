@@ -8,7 +8,7 @@
 
   &__LinkCallForm {
     color: $main;
-    @include font-pro-display-600(16px, 24px, 0.12em);
+    @include font-pro-display-semibold(16px, 24px, 0.12em);
     @include effect-hover-grey;
     @include effect-focus-main;
   }

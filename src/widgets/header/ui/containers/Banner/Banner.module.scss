@@ -9,10 +9,10 @@
   min-height: 36px;
   background-color: $grey;
   color: $white;
-  @include font-pro-display-400(12px, 12px, 0.02em);
+  @include font-pro-display-regular(12px, 12px, 0.02em);
   @include media-laptop {
     min-height: 44px;
-    @include font-pro-display-500(16px, 26px, 0.12em);
+    @include font-pro-display-medium(16px, 26px, 0.12em);
   }
 
   &__Text {

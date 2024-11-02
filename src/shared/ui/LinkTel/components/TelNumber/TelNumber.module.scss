@@ -2,8 +2,8 @@
 
 .TelNumber {
   color: inherit;
-  @include font-pro-display-400(14px);
+  @include font-pro-display-regular(14px);
   @include media-desktop {
-    @include font-pro-display-400(18px);
+    @include font-pro-display-regular(18px);
   }
 }

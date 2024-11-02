@@ -1,7 +1,7 @@
 @use './vars' as *;
 
 //# roboto
-@mixin font-roboto-500($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+@mixin font-roboto-medium($_size, $_lineHeight: 1, $_letterSpacing: normal) {
   font-style: normal;
   font-weight: 500;
   font-size: $_size;
@@ -11,7 +11,7 @@
 }
 
 //# display
-@mixin font-pro-display-400($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+@mixin font-pro-display-regular($_size, $_lineHeight: 1, $_letterSpacing: normal) {
   font-style: normal;
   font-weight: 400;
   font-size: $_size;
@@ -20,7 +20,7 @@
   letter-spacing: $_letterSpacing;
 }
 
-@mixin font-pro-display-500($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+@mixin font-pro-display-medium($_size, $_lineHeight: 1, $_letterSpacing: normal) {
   font-style: normal;
   font-weight: 500;
   font-size: $_size;
@@ -29,7 +29,7 @@
   letter-spacing: $_letterSpacing;
 }
 
-@mixin font-pro-display-600($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+@mixin font-pro-display-semibold($_size, $_lineHeight: 1, $_letterSpacing: normal) {
   font-style: normal;
   font-weight: 600;
   font-size: $_size;
@@ -38,7 +38,7 @@
   letter-spacing: $_letterSpacing;
 }
 
-// @mixin font-pro-display-700($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+// @mixin font-pro-display-bold($_size, $_lineHeight: 1, $_letterSpacing: normal) {
 //   font-style: normal;
 //   font-weight: 700;
 //   font-size: $_size;
@@ -48,7 +48,7 @@
 // }
 
 //# text
-@mixin font-pro-text-300($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+@mixin font-pro-text-light($_size, $_lineHeight: 1, $_letterSpacing: normal) {
   font-style: normal;
   font-weight: 300;
   font-size: $_size;
@@ -57,7 +57,7 @@
   letter-spacing: $_letterSpacing;
 }
 
-// @mixin font-pro-text-400($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+// @mixin font-pro-text-regular($_size, $_lineHeight: 1, $_letterSpacing: normal) {
 //   font-style: normal;
 //   font-weight: 400;
 //   font-size: $_size;
@@ -66,7 +66,7 @@
 //   letter-spacing: $_letterSpacing;
 // }
 
-// @mixin font-pro-text-500($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+// @mixin font-pro-text-medium($_size, $_lineHeight: 1, $_letterSpacing: normal) {
 //   font-style: normal;
 //   font-weight: 500;
 //   font-size: $_size;
@@ -75,7 +75,7 @@
 //   letter-spacing: $_letterSpacing;
 // }
 
-// @mixin font-pro-text-600($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+// @mixin font-pro-text-semibold($_size, $_lineHeight: 1, $_letterSpacing: normal) {
 //   font-style: normal;
 //   font-weight: 600;
 //   font-size: $_size;
@@ -84,7 +84,7 @@
 //   letter-spacing: $_letterSpacing;
 // }
 
-// @mixin font-pro-text-700($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+// @mixin font-pro-text-bold($_size, $_lineHeight: 1, $_letterSpacing: normal) {
 //   font-style: normal;
 //   font-weight: 700;
 //   font-size: $_size;
