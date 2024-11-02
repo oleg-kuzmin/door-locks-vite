@@ -4,7 +4,7 @@
   width: 18px;
   height: 18px;
   background: url('/icons/tel-icon.svg') no-repeat center / contain;
-  @include media-laptop {
+  @include media-desktop {
     width: 20px;
     height: 20px;
   }
