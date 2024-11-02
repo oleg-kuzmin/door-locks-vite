@@ -1,4 +1,4 @@
-import { BurgerLink } from '../../components/BurgerLink';
+import { BurgerLink } from './BurgerLink';
 import styles from './BurgerItem.module.scss';
 
 interface BurgerItemProps {

@@ -1,1 +1,0 @@
-export { BurgerList } from './BurgerList';

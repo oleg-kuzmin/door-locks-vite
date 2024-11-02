@@ -1,1 +1,0 @@
-export { BurgerPanelContent } from './BurgerPanelContent';

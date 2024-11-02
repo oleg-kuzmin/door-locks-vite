@@ -2,11 +2,11 @@ import { useRef } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import { LinkCallForm } from '../LinkCallForm';
 import { LinkTel } from '../LinkTel';
-import { BurgerItem } from './containers/BurgerItem';
-import { BurgerLinks } from './containers/BurgerLinks';
-import { BurgerList } from './containers/BurgerList';
-import { BurgerNavigation } from './containers/BurgerNavigation';
-import { BurgerPanelContent } from './containers/BurgerPanelContent';
+import { BurgerItem } from './BurgerItem';
+import { BurgerLinks } from './BurgerLinks';
+import { BurgerList } from './BurgerList';
+import { BurgerNavigation } from './BurgerNavigation';
+import { BurgerPanelContent } from './BurgerPanelContent';
 import styles from './BurgerPanel.module.scss';
 
 interface BurgerPanelProps {
