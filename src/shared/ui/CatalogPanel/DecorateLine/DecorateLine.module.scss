@@ -1,0 +1,12 @@
+@use 'shared/styles' as *;
+
+.DecorateLine {
+  width: 0;
+  height: 2px;
+  background-color: $main;
+  transition: width $hover ease-out;
+
+  &_Active {
+    width: 100%;
+  }
+}
