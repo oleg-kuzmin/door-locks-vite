@@ -1,5 +1,4 @@
 import { ReactNode } from 'react';
-import styles from './CatalogNavigation.module.scss';
 
 interface CatalogNavigationProps {
   children: ReactNode;
@@ -8,5 +7,5 @@ interface CatalogNavigationProps {
 
 export function CatalogNavigation({ children, className }: Readonly<CatalogNavigationProps>) {
   const externalClass = className ? ` ${className}` : '';
-  return <nav className={styles.CatalogNavigation + externalClass}>{children}</nav>;
+  return <nav className={externalClass}>{children}</nav>;
 }
