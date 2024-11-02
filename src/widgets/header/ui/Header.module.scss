@@ -7,13 +7,29 @@
     display: none;
     @include media-laptop {
       display: revert;
-      // margin-right: 101px;
+      margin-right: 102px;
     }
   }
 
   &__ButtonBurgerPanel {
     @include media-laptop {
       display: none;
+    }
+  }
+
+  &__Navigation {
+    display: none;
+    @include media-laptop {
+      display: revert;
+      margin-right: auto;
+    }
+  }
+
+  &__LinkTel {
+    display: none;
+    @include media-desktop {
+      display: flex;
+      margin-right: 31px;
     }
   }
 }

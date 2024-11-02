@@ -27,8 +27,8 @@ export function Header({ className }: Readonly<HeaderProps>) {
           onClick={() => console.log('Click')}
         />
         <Logo className={styles.Header__Logo} />
-        <Navigation />
-        <LinkTel />
+        <Navigation className={styles.Header__Navigation} />
+        <LinkTel className={styles.Header__LinkTel} />
         <Links>
           <LinkIcon counter={8} href="#" type="like" />
           <LinkIcon counter={10} href="#" type="cart" />
