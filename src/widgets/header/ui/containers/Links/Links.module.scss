@@ -3,7 +3,7 @@
 .Links {
   display: flex;
   gap: 16px;
-  @include media-desktop {
+  @include media-laptop {
     gap: 24px;
   }
 }
