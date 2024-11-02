@@ -1,0 +1,11 @@
+@use 'shared/styles' as *;
+
+.TelIcon {
+  width: 18px;
+  height: 18px;
+  background: url('/icons/tel-icon.svg') no-repeat center / contain;
+  @include media-laptop {
+    width: 20px;
+    height: 20px;
+  }
+}

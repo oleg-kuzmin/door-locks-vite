@@ -6,6 +6,7 @@ import { Banner } from './containers/Banner';
 import { HeaderContent } from './containers/HeaderContent';
 import { Links } from './containers/Links';
 import { Navigation } from './containers/Navigation';
+import { LinkTel } from 'shared/ui';
 import styles from './Header.module.scss';
 
 interface HeaderProps {
@@ -27,6 +28,7 @@ export function Header({ className }: Readonly<HeaderProps>) {
         />
         <Logo className={styles.Header__Logo} />
         <Navigation />
+        <LinkTel />
         <Links>
           <LinkIcon counter={8} href="#" type="like" />
           <LinkIcon counter={10} href="#" type="cart" />

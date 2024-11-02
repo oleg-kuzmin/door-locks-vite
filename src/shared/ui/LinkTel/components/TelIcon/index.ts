@@ -1,0 +1,1 @@
+export { TelIcon } from './TelIcon';

@@ -1,0 +1,9 @@
+@use 'shared/styles' as *;
+
+.TelNumber {
+  color: inherit;
+  @include font-pro-display-400(14px);
+  @include media-desktop {
+    @include font-pro-display-400(18px);
+  }
+}

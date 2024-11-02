@@ -1,0 +1,10 @@
+@use 'shared/styles' as *;
+
+.LinkTel {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: $grey;
+  @include effect-hover-main;
+  @include effect-focus-main;
+}
