@@ -1,5 +1,5 @@
-import { TelIcon } from './components/TelIcon';
-import { TelNumber } from './components/TelNumber';
+import { TelIcon } from './TelIcon';
+import { TelNumber } from './TelNumber';
 import styles from './LinkTel.module.scss';
 
 interface LinkTelProps {
