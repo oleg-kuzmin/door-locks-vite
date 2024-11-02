@@ -5,6 +5,7 @@ import { LinkTel } from '../LinkTel';
 import { BurgerItem } from './containers/BurgerItem';
 import { BurgerLinks } from './containers/BurgerLinks';
 import { BurgerList } from './containers/BurgerList';
+import { BurgerNavigation } from './containers/BurgerNavigation';
 import { BurgerPanelContent } from './containers/BurgerPanelContent';
 import styles from './BurgerPanel.module.scss';
 
@@ -23,12 +24,14 @@ export function BurgerPanel({ isActive, className }: Readonly<BurgerPanelProps>)
     <CSSTransition nodeRef={nodeRef} in={isActive} classNames={{ ...styles }} timeout={timeout} unmountOnExit>
       <div className={styles.BurgerPanel + externalClass} ref={nodeRef}>
         <BurgerPanelContent>
-          <BurgerList>
-            <BurgerItem href="#" text="Главная" />
-            <BurgerItem href="#" text="Каталог" hasArrow />
-            <BurgerItem href="#" text="Оптовая продажа" />
-            <BurgerItem href="#" text="О нас" />
-          </BurgerList>
+          <BurgerNavigation>
+            <BurgerList>
+              <BurgerItem href="#" text="Главная" />
+              <BurgerItem href="#" text="Каталог" hasArrow />
+              <BurgerItem href="#" text="Оптовая продажа" />
+              <BurgerItem href="#" text="О нас" />
+            </BurgerList>
+          </BurgerNavigation>
           <BurgerLinks>
             <LinkTel />
             <LinkCallForm className={styles.BurgerPanel__LinkCallForm} />
