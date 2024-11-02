@@ -1,6 +1,6 @@
 @use 'shared/styles' as *;
 
-.CatalogLink {  
+.CatalogLink {
   color: $grey;
   transition: color $hover ease-out;
   @include font-16-reg-16_26;

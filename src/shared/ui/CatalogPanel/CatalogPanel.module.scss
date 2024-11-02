@@ -2,7 +2,34 @@
 
 .CatalogPanel {
   width: 790px;
+  margin: 0 auto;
   padding: 32px;
   outline: 1px solid red;
-  margin: 0 auto;
+
+  &__ButtonLinkMain {
+    min-width: 164px;
+    height: 40px;
+  }
+}
+
+.enter {
+  opacity: 0;
+}
+
+.enterActive {
+  opacity: 1;
+  transition: opacity $animateCatalogPanel;
+}
+
+.exit {
+  opacity: 1;
+}
+
+.exitActive {
+  opacity: 0;
+  transition: opacity $animateCatalogPanel;
+}
+
+:export {
+  animateCatalogPanel: #{$animateCatalogPanel};
 }

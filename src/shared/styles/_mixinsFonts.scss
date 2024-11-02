@@ -110,13 +110,13 @@
 //   font-family: $proText;
 // }
 
-// @mixin font-button-txt {
-//   font-style: normal;
-//   font-weight: 500;
-//   font-size: 16px;
-//   line-height: 26px;
-//   font-family: $proDisplay;
-// }
+@mixin font-button-txt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: $proDisplay;
+}
 
 // @mixin font-semi-32_38 {
 //   font-style: normal;

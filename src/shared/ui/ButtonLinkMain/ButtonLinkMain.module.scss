@@ -1,0 +1,16 @@
+@use 'shared/styles' as *;
+
+.ButtonLinkMain {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  min-width: 220px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: $main;
+  color: $white;
+  @include font-button-txt;
+  @include effect-hover-button-main;
+  @include effect-focus-primary;
+}
