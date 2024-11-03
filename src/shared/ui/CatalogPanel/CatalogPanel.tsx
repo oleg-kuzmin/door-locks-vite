@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import { ButtonLinkMain } from '../ButtonLinkMain';
+import { CatalogImage } from './CatalogImage';
 import { CatalogItem } from './CatalogItem';
 import { CatalogList } from './CatalogList';
 import { CatalogNavigation } from './CatalogNavigation';
@@ -19,7 +20,6 @@ export function CatalogPanel({ isActive, className }: Readonly<CatalogPanelProps
   const { animateCatalogPanel } = styles;
   const timeout = parseInt(animateCatalogPanel);
   const [activeLink, isStartImageAnimation, handleCatalogItem] = useCatalogItem(isActive, timeout);
-  console.log(isStartImageAnimation);
 
   return (
     <CSSTransition nodeRef={nodeRef} in={isActive} classNames={{ ...styles }} timeout={timeout} unmountOnExit>
@@ -84,7 +84,9 @@ export function CatalogPanel({ isActive, className }: Readonly<CatalogPanelProps
             handleCatalogItem={handleCatalogItem}
           />
         </div>
-        <ImageContainer>123</ImageContainer>
+        <ImageContainer>
+          <CatalogImage activeLink={activeLink} isStartImageAnimation={isStartImageAnimation} />
+        </ImageContainer>
       </div>
     </CSSTransition>
   );

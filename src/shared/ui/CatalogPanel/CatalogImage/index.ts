@@ -1,0 +1,1 @@
+export { CatalogImage } from './CatalogImage';
