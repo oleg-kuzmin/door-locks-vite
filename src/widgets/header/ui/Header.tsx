@@ -7,7 +7,7 @@ import { Links } from './Links';
 import { Logo } from './Logo';
 import { Navigation } from './Navigation';
 import { useBurgerPanel } from 'shared/lib';
-import { BurgerPanel, CatalogPanel, LinkTel } from 'shared/ui';
+import { BurgerPanel, LinkTel } from 'shared/ui';
 import styles from './Header.module.scss';
 
 interface HeaderProps {
@@ -37,7 +37,6 @@ export function Header({ className }: Readonly<HeaderProps>) {
         </Links>
       </HeaderContent>
       <BurgerPanel className={styles.Header__BurgerPanel} isActive={isActiveBurgerPanel} />
-      <CatalogPanel isActive={true} />
     </header>
   );
 }

@@ -3,6 +3,8 @@ import { NavigationItem } from './NavigationItem';
 import { NavigationLink } from './NavigationLink';
 import { NavigationList } from './NavigationList';
 import { useCatalogPanel } from 'shared/lib';
+import { CatalogPanel } from 'shared/ui';
+import styles from './Navigation.module.scss';
 
 interface NavigationProps {
   className?: string;
@@ -21,6 +23,7 @@ export function Navigation({ className }: Readonly<NavigationProps>) {
         <NavigationItem>
           <NavigationLink href="#" text="Каталог" handleMouseEnter={openCatalogPanel} />
           <NavigationArrow isActive={isActiveCatalogPanel} />
+          <CatalogPanel className={styles.NavigationCatalogPanel} isActive={isActiveCatalogPanel} />
         </NavigationItem>
         <NavigationItem>
           <NavigationLink href="#" text="Оптовая продажа" handleMouseEnter={closeCatalogPanel} />
