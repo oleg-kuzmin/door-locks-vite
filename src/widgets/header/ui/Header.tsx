@@ -37,7 +37,7 @@ export function Header({ className }: Readonly<HeaderProps>) {
         </Links>
       </HeaderContent>
       <BurgerPanel className={styles.Header__BurgerPanel} isActive={isActiveBurgerPanel} />
-      <CatalogPanel isActive={false} />
+      <CatalogPanel isActive={true} />
     </header>
   );
 }

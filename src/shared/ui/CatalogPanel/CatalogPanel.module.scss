@@ -1,6 +1,9 @@
 @use 'shared/styles' as *;
 
 .CatalogPanel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 790px;
   margin: 0 auto;
   padding: 32px;

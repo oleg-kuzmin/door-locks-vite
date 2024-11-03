@@ -1,0 +1,11 @@
+@use 'shared/styles' as *;
+
+.ImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 351px;
+  height: 300px;
+  padding: 10px;
+  border: 1px solid $stroke;
+}
