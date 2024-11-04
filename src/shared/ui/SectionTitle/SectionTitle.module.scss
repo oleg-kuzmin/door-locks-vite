@@ -1,0 +1,10 @@
+@use 'shared/styles' as *;
+
+.SectionTitle {
+  text-align: center;
+  @include font-H1-mob;
+
+  @include media-desktop {
+    @include font-H1;
+  }
+}

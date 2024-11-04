@@ -7,8 +7,8 @@ export function HomePage() {
   return (
     <>
       <Header />
-      <Hero />
-      <Statistics />
+      {/* <Hero /> */}
+      {/* <Statistics /> */}
     </>
   );
 }
