@@ -43,4 +43,14 @@
       margin-bottom: 7px;
     }
   }
+
+  &__ButtonMain {
+    width: 100%;
+    @include media-mobile-M {
+      width: 343px;
+    }
+    @include media-tablet {
+      width: 220px;
+    }
+  }
 }
