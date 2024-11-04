@@ -8,9 +8,9 @@ export function HomePage() {
   return (
     <>
       <Header />
-      <Hero />
-      <Statistics />
-      <Advantages className={styles.HomePage__Advantages} />
+      {/* <Hero /> */}
+      {/* <Statistics /> */}
+      {/* <Advantages className={styles.HomePage__Advantages} /> */}
     </>
   );
 }
