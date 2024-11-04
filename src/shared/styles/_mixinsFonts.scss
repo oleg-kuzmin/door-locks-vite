@@ -38,14 +38,14 @@
   letter-spacing: $_letterSpacing;
 }
 
-// @mixin font-pro-display-bold($_size, $_lineHeight: 1, $_letterSpacing: normal) {
-//   font-style: normal;
-//   font-weight: 700;
-//   font-size: $_size;
-//   line-height: $_lineHeight;
-//   font-family: $proDisplay;
-//   letter-spacing: $_letterSpacing;
-// }
+@mixin font-pro-display-bold($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+  font-style: normal;
+  font-weight: 700;
+  font-size: $_size;
+  line-height: $_lineHeight;
+  font-family: $proDisplay;
+  letter-spacing: $_letterSpacing;
+}
 
 //# text
 @mixin font-pro-text-light($_size, $_lineHeight: 1, $_letterSpacing: normal) {
@@ -66,14 +66,14 @@
   letter-spacing: $_letterSpacing;
 }
 
-// @mixin font-pro-text-medium($_size, $_lineHeight: 1, $_letterSpacing: normal) {
-//   font-style: normal;
-//   font-weight: 500;
-//   font-size: $_size;
-//   line-height: $_lineHeight;
-//   font-family: $proText;
-//   letter-spacing: $_letterSpacing;
-// }
+@mixin font-pro-text-medium($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+  font-style: normal;
+  font-weight: 500;
+  font-size: $_size;
+  line-height: $_lineHeight;
+  font-family: $proText;
+  letter-spacing: $_letterSpacing;
+}
 
 @mixin font-pro-text-semibold($_size, $_lineHeight: 1, $_letterSpacing: normal) {
   font-style: normal;
@@ -84,14 +84,14 @@
   letter-spacing: $_letterSpacing;
 }
 
-// @mixin font-pro-text-bold($_size, $_lineHeight: 1, $_letterSpacing: normal) {
-//   font-style: normal;
-//   font-weight: 700;
-//   font-size: $_size;
-//   line-height: $_lineHeight;
-//   font-family: $proText;
-//   letter-spacing: $_letterSpacing;
-// }
+@mixin font-pro-text-bold($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+  font-style: normal;
+  font-weight: 700;
+  font-size: $_size;
+  line-height: $_lineHeight;
+  font-family: $proText;
+  letter-spacing: $_letterSpacing;
+}
 
 //# figma
 @mixin font-H1 {
@@ -118,93 +118,93 @@
   font-family: $proDisplay;
 }
 
-// @mixin font-semi-32_38 {
-//   font-style: normal;
-//   font-weight: 600;
-//   font-size: 32px;
-//   line-height: 38px;
-//   font-family: $proDisplay;
-// }
+@mixin font-semi-32_38 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  font-family: $proDisplay;
+}
 
-// @mixin font-bold-32_42 {
-//   font-style: normal;
-//   font-weight: 700;
-//   font-size: 32px;
-//   line-height: 42px;
-//   font-family: $proText;
-// }
+@mixin font-bold-32_42 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  font-family: $proText;
+}
 
-// @mixin font-medium-18_28 {
-//   font-style: normal;
-//   font-weight: 500;
-//   font-size: 18px;
-//   line-height: 28px;
-//   font-family: $proText;
-// }
+@mixin font-medium-18_28 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: $proText;
+}
 
-// @mixin font-semi-24_34 {
-//   font-style: normal;
-//   font-weight: 600;
-//   font-size: 24px;
-//   line-height: 34px;
-//   font-family: $proDisplay;
-// }
+@mixin font-semi-24_34 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  font-family: $proDisplay;
+}
 
-// @mixin font-reg-18_32 {
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 18px;
-//   line-height: 32px;
-//   font-family: $proText;
-// }
+@mixin font-reg-18_32 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: $proText;
+}
 
-// @mixin font-reg-12_20 {
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 12px;
-//   line-height: 20px;
-//   font-family: $proText;
-// }
+@mixin font-reg-12_20 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: $proText;
+}
 
-// @mixin font-20-medium-20_30 {
-//   font-style: normal;
-//   font-weight: 500;
-//   font-size: 20px;
-//   line-height: 30px;
-//   font-family: $proText;
-// }
+@mixin font-20-medium-20_30 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: $proText;
+}
 
-// @mixin font-20-reg-20_32 {
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 20px;
-//   line-height: 32px;
-//   font-family: $proText;
-// }
+@mixin font-20-reg-20_32 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: $proText;
+}
 
-// @mixin font-20-reg-20_30 {
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 20px;
-//   line-height: 30px;
-//   font-family: $proText;
-// }
+@mixin font-20-reg-20_30 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: $proText;
+}
 
-// @mixin font-16-bold-16_26 {
-//   font-style: normal;
-//   font-weight: 700;
-//   font-size: 16px;
-//   line-height: 26px;
-//   font-family: $proText;
-// }
+@mixin font-16-bold-16_26 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: $proText;
+}
 
-// @mixin font-16-semi-16_26 {
-//   font-style: normal;
-//   font-weight: 600;
-//   font-size: 16px;
-//   line-height: 26px;
-//   font-family: $proText;
-// }
+@mixin font-16-semi-16_26 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: $proText;
+}
 
 @mixin font-16-reg-16_26 {
   font-style: normal;
@@ -214,37 +214,37 @@
   font-family: $proText;
 }
 
-// @mixin font-16-light-16_26 {
-//   font-style: normal;
-//   font-weight: 300;
-//   font-size: 16px;
-//   line-height: 26px;
-//   font-family: $proText;
-// }
+@mixin font-16-light-16_26 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: $proText;
+}
 
-// @mixin font-16-medium-16_26 {
-//   font-style: normal;
-//   font-weight: 500;
-//   font-size: 16px;
-//   line-height: 26px;
-//   font-family: $proText;
-// }
+@mixin font-16-medium-16_26 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: $proText;
+}
 
-// @mixin font-14-medium-14_24 {
-//   font-style: normal;
-//   font-weight: 500;
-//   font-size: 14px;
-//   line-height: 24px;
-//   font-family: $proText;
-// }
+@mixin font-14-medium-14_24 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: $proText;
+}
 
-// @mixin font-14-light-14_24 {
-//   font-style: normal;
-//   font-weight: 300;
-//   font-size: 14px;
-//   line-height: 24px;
-//   font-family: $proText;
-// }
+@mixin font-14-light-14_24 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: $proText;
+}
 
 @mixin font-14-reg-14_24 {
   font-style: normal;
