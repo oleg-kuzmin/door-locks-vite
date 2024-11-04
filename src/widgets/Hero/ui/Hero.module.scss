@@ -2,8 +2,4 @@
 
 .Hero {
   position: relative;
-
-  &__Content {
-    @include content;
-  }
 }
