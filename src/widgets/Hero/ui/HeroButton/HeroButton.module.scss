@@ -1,0 +1,29 @@
+@use 'shared/styles' as *;
+
+.HeroButton {
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  @include effect-focus-main;
+  @include media-desktop {
+    width: 32px;
+    height: 32px;
+  }
+
+  &_Type_Next {
+    background-image: url('/icons/hero-button-next-mobile.svg');
+    @include media-desktop {
+      background-image: url('/icons/hero-button-next-desktop.svg');
+    }
+  }
+
+  &_Type_Prev {
+    background-image: url('/icons/hero-button-prev-mobile.svg');
+    @include media-desktop {
+      background-image: url('/icons/hero-button-prev-desktop.svg');
+    }
+  }
+}
