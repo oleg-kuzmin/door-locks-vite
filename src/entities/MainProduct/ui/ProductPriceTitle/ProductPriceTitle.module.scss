@@ -1,0 +1,6 @@
+@use 'shared/styles' as *;
+
+.ProductPriceTitle {
+  color: $grey;
+  @include font-pro-text-regular(12px, 22px);
+}

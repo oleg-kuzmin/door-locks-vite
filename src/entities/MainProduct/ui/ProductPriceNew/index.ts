@@ -1,0 +1,1 @@
+export { ProductPriceNew } from './ProductPriceNew';

@@ -57,14 +57,14 @@
   letter-spacing: $_letterSpacing;
 }
 
-// @mixin font-pro-text-regular($_size, $_lineHeight: 1, $_letterSpacing: normal) {
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: $_size;
-//   line-height: $_lineHeight;
-//   font-family: $proText;
-//   letter-spacing: $_letterSpacing;
-// }
+@mixin font-pro-text-regular($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: $_size;
+  line-height: $_lineHeight;
+  font-family: $proText;
+  letter-spacing: $_letterSpacing;
+}
 
 // @mixin font-pro-text-medium($_size, $_lineHeight: 1, $_letterSpacing: normal) {
 //   font-style: normal;
@@ -75,14 +75,14 @@
 //   letter-spacing: $_letterSpacing;
 // }
 
-// @mixin font-pro-text-semibold($_size, $_lineHeight: 1, $_letterSpacing: normal) {
-//   font-style: normal;
-//   font-weight: 600;
-//   font-size: $_size;
-//   line-height: $_lineHeight;
-//   font-family: $proText;
-//   letter-spacing: $_letterSpacing;
-// }
+@mixin font-pro-text-semibold($_size, $_lineHeight: 1, $_letterSpacing: normal) {
+  font-style: normal;
+  font-weight: 600;
+  font-size: $_size;
+  line-height: $_lineHeight;
+  font-family: $proText;
+  letter-spacing: $_letterSpacing;
+}
 
 // @mixin font-pro-text-bold($_size, $_lineHeight: 1, $_letterSpacing: normal) {
 //   font-style: normal;
@@ -94,21 +94,21 @@
 // }
 
 //# figma
-// @mixin font-H1 {
-//   font-style: normal;
-//   font-weight: 600;
-//   font-size: 44px;
-//   line-height: 62px;
-//   font-family: $proText;
-// }
+@mixin font-H1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 62px;
+  font-family: $proText;
+}
 
-// @mixin font-H1-mob {
-//   font-style: normal;
-//   font-weight: 600;
-//   font-size: 22px;
-//   line-height: 34px;
-//   font-family: $proText;
-// }
+@mixin font-H1-mob {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 34px;
+  font-family: $proText;
+}
 
 @mixin font-button-txt {
   font-style: normal;
@@ -246,10 +246,10 @@
 //   font-family: $proText;
 // }
 
-// @mixin font-14-reg-14_24 {
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 14px;
-//   line-height: 24px;
-//   font-family: $proText;
-// }
+@mixin font-14-reg-14_24 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: $proText;
+}

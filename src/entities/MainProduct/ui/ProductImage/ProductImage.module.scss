@@ -1,0 +1,12 @@
+@use 'shared/styles' as *;
+
+.ProductImage {
+  width: 268px;
+  height: 274px;
+  object-fit: contain;
+  vertical-align: top;
+  @include media-desktop {
+    width: 518px;
+    height: 524px;
+  }
+}

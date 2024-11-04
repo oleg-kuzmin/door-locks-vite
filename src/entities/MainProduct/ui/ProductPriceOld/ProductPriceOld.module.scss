@@ -1,0 +1,13 @@
+@use 'shared/styles' as *;
+
+.ProductPriceOld {
+  color: $extraLightGrey;
+  @include font-pro-text-light(14px);
+  @include media-desktop {
+    @include font-pro-text-light(22px);
+  }
+
+  &:after {
+    content: '\20BD';
+  }
+}

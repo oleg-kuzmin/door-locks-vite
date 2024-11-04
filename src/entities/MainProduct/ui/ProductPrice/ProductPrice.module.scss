@@ -1,0 +1,13 @@
+@use 'shared/styles' as *;
+
+.ProductPrice {
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+  gap: 8px;
+
+  @include media-desktop {
+    margin-bottom: 18px;
+    gap: 12px;
+  }
+}

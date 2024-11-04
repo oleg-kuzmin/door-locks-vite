@@ -1,0 +1,6 @@
+@use 'shared/styles' as *;
+
+.ProductInfo {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,1 @@
+export { addWhiteSpacesPrice } from './addWhiteSpacesPrice';

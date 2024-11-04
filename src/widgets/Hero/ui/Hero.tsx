@@ -7,6 +7,7 @@ import { HeroUi } from './HeroUi';
 import { PaginationBullet } from './PaginationBullet';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
+import { MainProduct } from 'entities/MainProduct';
 import styles from './Hero.module.scss';
 
 interface HeroProps {
@@ -53,16 +54,15 @@ export function Hero({ className }: Readonly<HeroProps>) {
             setIndexActiveSlide(swiper.realIndex);
           }}>
           <SwiperSlide>
-            <h1>Slide 1</h1>
+            <MainProduct className={styles.Hero__MainProduct} />
           </SwiperSlide>
           <SwiperSlide>
-            <h1>Slide 2</h1>
+            <MainProduct className={styles.Hero__MainProduct} />
           </SwiperSlide>
           <SwiperSlide>
-            <h1>Slide 3</h1>
+            <MainProduct className={styles.Hero__MainProduct} />
           </SwiperSlide>
         </Swiper>
-
         <HeroUi className={styles.Hero__Ui}>
           <HeroButton type="prev" onClick={handleClickPrev} />
           <HeroPagination>

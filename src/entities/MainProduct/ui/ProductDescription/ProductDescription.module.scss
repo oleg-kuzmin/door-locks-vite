@@ -1,0 +1,12 @@
+@use 'shared/styles' as *;
+
+.ProductDescription {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  display: -webkit-box;
+  max-width: 287px;
+  overflow: hidden;
+  color: $grey;
+  @include font-14-reg-14_24;
+}

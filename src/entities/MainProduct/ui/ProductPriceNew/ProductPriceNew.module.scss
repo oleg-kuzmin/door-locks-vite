@@ -1,0 +1,13 @@
+@use 'shared/styles' as *;
+
+.ProductPriceNew {
+  text-decoration: none;
+  @include font-pro-text-semibold(18px);
+  @include media-desktop {
+    @include font-pro-text-semibold(24px);
+  }
+
+  &:after {
+    content: '\20BD';
+  }
+}

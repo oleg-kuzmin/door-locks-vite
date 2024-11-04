@@ -3,10 +3,11 @@
 .Hero {
   position: relative;
   min-height: 608px;
+  padding-top: 19px;
   outline: 1px solid red;
-
   @include media-desktop {
     min-height: 774px;
+    padding-top: 123px;
   }
 
   &__Ui {
@@ -14,6 +15,12 @@
     bottom: 46px;
     @include media-desktop {
       bottom: 52px;
+    }
+  }
+
+  &__MainProduct {
+    @include media-desktop {
+      padding-left: 48px;
     }
   }
 }

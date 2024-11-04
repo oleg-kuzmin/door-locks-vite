@@ -1,0 +1,16 @@
+@use 'shared/styles' as *;
+
+.ProductTitle {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  line-clamp: 2;
+  max-width: 343px;
+  overflow: hidden;
+  @include font-H1-mob;
+
+  @include media-desktop {
+    max-width: 604px;
+    @include font-H1;
+  }
+}
