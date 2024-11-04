@@ -4,7 +4,7 @@
   z-index: 2;
   position: sticky;
   top: 0;
-  background-color: rgba($color: $white, $alpha: 0.95);
+  background-color: rgba($color: $white, $alpha: 0.9);
   box-shadow: inset 0 -1px 0 0 $lightGrey;
   @include media-laptop {
     position: static;
