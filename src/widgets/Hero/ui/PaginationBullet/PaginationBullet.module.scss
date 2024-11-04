@@ -1,0 +1,28 @@
+@use 'shared/styles' as *;
+
+.PaginationBullet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+
+  &::after {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: $lightBlue;
+    content: '';
+  }
+
+  &_Active {
+    border: 1px solid $lightBlue;
+    &::after {
+      width: 6px;
+      height: 6px;
+      background-color: $main;
+    }
+  }
+}
