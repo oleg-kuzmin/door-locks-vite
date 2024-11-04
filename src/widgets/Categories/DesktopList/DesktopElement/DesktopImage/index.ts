@@ -1,0 +1,1 @@
+export { DesktopImage } from './DesktopImage';

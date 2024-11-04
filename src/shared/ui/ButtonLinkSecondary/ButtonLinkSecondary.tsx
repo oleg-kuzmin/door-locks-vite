@@ -10,7 +10,7 @@ export function ButtonLinkSecondary({ href, text, className }: Readonly<ButtonLi
   const externalClass = className ? ` ${className}` : '';
 
   return (
-    <a className={styles.LinkSecondary + externalClass} href={href}>
+    <a className={styles.ButtonLinkSecondary + externalClass} href={href}>
       {text}
     </a>
   );

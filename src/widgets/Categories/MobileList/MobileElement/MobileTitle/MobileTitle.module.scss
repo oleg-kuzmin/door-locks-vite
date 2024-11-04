@@ -1,0 +1,10 @@
+@use 'shared/styles' as *;
+
+.MobileTitle {
+  padding-top: 12px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: $white;
+  // text-align: center; // todo
+  @include font-14-reg-14_24;
+}

@@ -1,0 +1,8 @@
+@use 'shared/styles' as *;
+
+.DesktopList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 39px 40px;
+}

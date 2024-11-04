@@ -1,0 +1,12 @@
+@use 'shared/styles' as *;
+
+.MobileList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px 20px;
+
+  @include media-laptop {
+    gap: 40px;
+  }
+}

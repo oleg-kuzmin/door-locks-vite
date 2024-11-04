@@ -1,0 +1,19 @@
+@use 'shared/styles' as *;
+
+.DesktopElement {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 131px 0 40px 40px;
+  gap: 40px;
+  background-color: rgba(0, 0, 0, 0.02);
+
+  &__Info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__Title {
+    padding-bottom: 16px;
+  }
+}

@@ -1,0 +1,5 @@
+@use 'shared/styles' as *;
+
+.DesktopTitle {
+  @include font-pro-text-medium(22px, 34px);
+}

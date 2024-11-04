@@ -4,14 +4,14 @@
   &__Advantages {
     padding: 40px 0;
     @include media-desktop {
-      padding: 93px 0 101px;
+      padding: 93px 0 102px;
     }
   }
 
-  // &__Categories {
-  //   padding-bottom: 40px;
-  //   @include media-desktop {
-  //     padding-bottom: 101px;
-  //   }
-  // }
+  &__Categories {
+    padding-bottom: 40px;
+    @include media-desktop {
+      padding-bottom: 101px;
+    }
+  }
 }

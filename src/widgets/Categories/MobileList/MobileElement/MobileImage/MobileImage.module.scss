@@ -1,0 +1,30 @@
+@use 'shared/styles' as *;
+
+.MobileImage {
+  position: relative;
+  z-index: -1;
+  width: 134px;
+  height: 134px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include media-mobile-M {
+    width: 161px;
+    height: 161px;
+  }
+
+  &_Type_Hotels {
+    background-image: url('/categories/Замки для отелей.png');
+  }
+  &_Type_Lockers {
+    background-image: url('/categories/Замки для шкафчиков.png');
+  }
+  &_Type_House {
+    background-image: url('/categories/Замки для дома.png');
+  }
+  &_Type_Office {
+    background-image: url('/categories/Замки для офиса.png');
+  }
+}

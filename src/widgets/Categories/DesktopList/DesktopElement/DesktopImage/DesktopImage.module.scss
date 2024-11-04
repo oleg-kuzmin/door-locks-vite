@@ -1,0 +1,23 @@
+@use 'shared/styles' as *;
+
+.DesktopImage {
+  z-index: -1;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &_Type_Hotels {
+    background-image: url('/categories/Замки для отелей.png');
+  }
+  &_Type_Lockers {
+    background-image: url('/categories/Замки для шкафчиков.png');
+  }
+  &_Type_House {
+    background-image: url('/categories/Замки для дома.png');
+  }
+  &_Type_Office {
+    background-image: url('/categories/Замки для офиса.png');
+  }
+}

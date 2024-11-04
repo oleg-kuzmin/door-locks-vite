@@ -1,0 +1,15 @@
+@use 'shared/styles' as *;
+
+.MobileElement {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.02);
+  user-select: none;
+
+  &__Link {
+    @include effect-focus-main;
+    @include effect-hover-shadow-black;
+  }
+}
