@@ -1,0 +1,11 @@
+@use 'shared/styles' as *;
+
+.HeroPagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+
+  @include media-desktop {
+    gap: 11px;
+  }
+}

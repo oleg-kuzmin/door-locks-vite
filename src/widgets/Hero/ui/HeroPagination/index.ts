@@ -1,0 +1,1 @@
+export { HeroPagination } from './HeroPagination';
