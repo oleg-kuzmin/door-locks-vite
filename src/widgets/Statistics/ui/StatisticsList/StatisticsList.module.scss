@@ -1,0 +1,11 @@
+@use 'shared/styles' as *;
+
+.StatisticsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px 20px;
+  @include media-desktop {
+    gap: 82px;
+  }
+}

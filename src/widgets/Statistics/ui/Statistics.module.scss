@@ -1,0 +1,11 @@
+@use 'shared/styles' as *;
+
+.Statistics {
+  padding: 30px 16px 30px;
+  background-color: $bgLight;
+
+  @include media-desktop {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

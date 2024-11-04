@@ -1,0 +1,10 @@
+@use 'shared/styles' as *;
+
+.ElementText {
+  color: $grey;
+  text-align: center;
+  @include font-14-reg-14_24;
+  @include media-desktop {
+    @include font-16-semi-16_26;
+  }
+}

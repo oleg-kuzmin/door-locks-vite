@@ -1,0 +1,10 @@
+@use 'shared/styles' as *;
+
+.ElementNumber {
+  color: $black;
+  text-align: center;
+  @include font-semi-24_34;
+  @include media-desktop {
+    @include font-semi-32_38;
+  }
+}
