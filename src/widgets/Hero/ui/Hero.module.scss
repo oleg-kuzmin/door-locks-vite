@@ -2,7 +2,7 @@
 
 .Hero {
   position: relative;
-  min-height: 608px;
+  min-height: 602px;
   padding-top: 19px;
   @include media-desktop {
     min-height: 774px;
@@ -11,7 +11,7 @@
 
   &__Ui {
     position: absolute;
-    bottom: 46px;
+    bottom: 40px;
     @include media-desktop {
       bottom: 52px;
     }
