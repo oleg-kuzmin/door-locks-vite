@@ -15,10 +15,7 @@ export function Hero({ className }: Readonly<HeroProps>) {
   return (
     <section className={styles.Hero + externalClass}>
       <HeroContent>
-
-        
-
-        <HeroUi>
+        <HeroUi className={styles.Hero__Ui}>
           <HeroButton type="prev" onClick={() => console.log(123)} />
           <HeroPagination>
             <PaginationBullet index={0} indexActiveSlide={1} />

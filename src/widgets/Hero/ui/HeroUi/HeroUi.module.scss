@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  // @include content;
+  @include content;
 
   @include media-mobile-L {
     justify-content: center;

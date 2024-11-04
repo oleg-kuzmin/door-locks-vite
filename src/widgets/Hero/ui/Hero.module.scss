@@ -2,4 +2,18 @@
 
 .Hero {
   position: relative;
+  min-height: 608px;
+  outline: 1px solid red;
+
+  @include media-desktop {
+    min-height: 774px;
+  }
+
+  &__Ui {
+    position: absolute;
+    bottom: 46px;
+    @include media-desktop {
+      bottom: 52px;
+    }
+  }
 }
