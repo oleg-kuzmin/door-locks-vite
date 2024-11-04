@@ -1,5 +1,9 @@
 @use 'shared/styles' as *;
 
 .Hero {
-  position: relative;  
+  position: relative;
+
+  &__Content {
+    @include content;
+  }
 }

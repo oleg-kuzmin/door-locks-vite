@@ -1,3 +1,4 @@
+import { HeroContent } from './HeroContent';
 import styles from './Hero.module.scss';
 
 interface HeroProps {
@@ -7,5 +8,9 @@ interface HeroProps {
 export function Hero({ className }: Readonly<HeroProps>) {
   const externalClass = className ? ` ${className}` : '';
 
-  return <section className={styles.Hero + externalClass}></section>;
+  return (
+    <section className={styles.Hero + externalClass}>
+      <HeroContent>12345</HeroContent>
+    </section>
+  );
 }
