@@ -1,12 +1,12 @@
 @use 'shared/styles' as *;
 
 .HomePage {
-  // &__Advantages {
-  //   padding: 40px 0;
-  //   @include media-desktop {
-  //     padding: 93px 0 101px;
-  //   }
-  // }
+  &__Advantages {
+    padding: 40px 0;
+    @include media-desktop {
+      padding: 93px 0 101px;
+    }
+  }
 
   // &__Categories {
   //   padding-bottom: 40px;

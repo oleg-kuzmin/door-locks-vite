@@ -1,0 +1,12 @@
+@use 'shared/styles' as *;
+
+.AdvantagesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+
+  @include media-laptop {
+    flex-direction: row;
+  }
+}

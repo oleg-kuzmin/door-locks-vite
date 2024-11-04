@@ -1,0 +1,13 @@
+@use 'shared/styles' as *;
+
+.ItemText {
+  max-width: 287px;
+  color: $grey;
+  text-align: center;
+  @include font-16-semi-16_26;
+  
+  @include media-desktop {
+    max-width: 345px;
+    @include font-20-reg-20_32;
+  }
+}

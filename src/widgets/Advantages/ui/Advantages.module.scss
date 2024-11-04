@@ -1,0 +1,12 @@
+@use 'shared/styles' as *;
+
+.Advantages {
+  @include content;
+
+  &__Title {
+    padding-bottom: 24px;
+    @include media-desktop {
+      padding-bottom: 55px;
+    }
+  }
+}

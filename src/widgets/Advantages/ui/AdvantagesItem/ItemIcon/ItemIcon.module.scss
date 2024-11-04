@@ -1,0 +1,20 @@
+@use 'shared/styles' as *;
+
+.ItemIcon {
+  width: 64px;
+  height: 64px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  @include media-desktop {
+    width: 82px;
+    height: 82px;
+  }
+
+  &_Type_Box {
+    background-image: url('/icons/advantages-item-icon-box.svg');
+  }
+
+  &_Type_Logo {
+    background-image: url('/icons/advantages-item-icon-logo.svg');
+  }
+}
