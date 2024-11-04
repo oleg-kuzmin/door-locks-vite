@@ -1,0 +1,13 @@
+@use 'shared/styles' as *;
+
+.HeroUi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // @include content;
+
+  @include media-mobile-L {
+    justify-content: center;
+    gap: 21px;
+  }
+}

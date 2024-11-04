@@ -8,10 +8,6 @@
   background-repeat: no-repeat;
   background-color: transparent;
   @include effect-focus-main;
-  @include media-desktop {
-    width: 32px;
-    height: 32px;
-  }
 
   &_Type_Next {
     background-image: url('/icons/hero-button-next-mobile.svg');
