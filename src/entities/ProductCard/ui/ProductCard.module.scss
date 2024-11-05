@@ -1,0 +1,13 @@
+@use 'shared/styles' as *;
+
+.ProductCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 288px;
+  height: 426px;
+  border-radius: 20px;
+  background-color: $main;
+  color: $white;
+  @include font-H1;
+}
