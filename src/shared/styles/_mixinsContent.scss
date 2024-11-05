@@ -13,3 +13,17 @@
     width: calc(100% - 200px);
   }
 }
+
+@mixin content-swiper {
+  width: calc(100% - 12px);
+  max-width: 1260px;
+  margin: 0 auto;
+
+  @include media-laptop {
+    width: calc(100% - 80px);
+  }
+
+  @include media-desktop {
+    width: calc(100% - 180px);
+  }
+}

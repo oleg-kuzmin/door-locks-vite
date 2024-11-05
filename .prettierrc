@@ -10,6 +10,7 @@
     "^features(/.*)$",
     "^entities(/.*)$",
     "^shared(/.*)$",
+    "/css",
     "(?<!.module).scss",
     ".module.scss"
   ],

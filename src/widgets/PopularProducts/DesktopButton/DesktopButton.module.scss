@@ -1,0 +1,23 @@
+@use 'shared/styles' as *;
+
+.DesktopButton {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  @include effect-focus-main;
+
+  &_Type_Prev {
+    background-image: url('/icons/popular-products-desktop-button-prev.svg');
+  }
+
+  &_Type_Next {
+    background-image: url('/icons/popular-products-desktop-button-next.svg');
+  }
+
+  &:disabled {
+    opacity: 0.2;
+  }
+}

@@ -1,0 +1,26 @@
+@use 'shared/styles' as *;
+
+.PopularProducts {
+  position: relative;
+
+  &__Title {
+    text-align: left;
+  }
+
+  &__DesktopUi {
+    display: none;
+    @include media-desktop {
+      display: flex;
+      padding-right: 6px;
+    }
+  }
+
+  &__Swiper {
+    @include content-swiper;
+  }
+
+  &__Slide {
+    width: max-content;
+    padding: 10px;
+  }
+}

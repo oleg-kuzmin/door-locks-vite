@@ -10,4 +10,5 @@
   background-color: $main;
   color: $white;
   @include font-H1;
+  @include effect-hover-shadow-black;
 }

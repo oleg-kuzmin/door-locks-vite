@@ -1,0 +1,13 @@
+@use 'shared/styles' as *;
+
+.PopularProductsTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  @include content;
+
+  @include media-desktop {
+    padding-bottom: 53px;
+  }
+}
