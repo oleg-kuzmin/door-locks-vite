@@ -11,11 +11,11 @@ export function HomePage() {
   return (
     <>
       <Header />
-      <Hero />
-      <Statistics />
-      <Advantages className={styles.HomePage__Advantages} />
-      <Categories className={styles.HomePage__Categories} />
-      <PopularProducts />
+      {/* <Hero /> */}
+      {/* <Statistics /> */}
+      {/* <Advantages className={styles.HomePage__Advantages} /> */}
+      {/* <Categories className={styles.HomePage__Categories} /> */}
+      {/* <PopularProducts /> */}
       <ProductCard />
     </>
   );

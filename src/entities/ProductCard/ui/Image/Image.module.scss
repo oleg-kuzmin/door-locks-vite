@@ -1,0 +1,8 @@
+@use 'shared/styles' as *;
+
+.Image {
+  z-index: -1;
+  height: 320px;
+  object-fit: contain;
+  vertical-align: top;
+}

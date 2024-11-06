@@ -5,5 +5,4 @@ export { ButtonMain } from './ButtonMain';
 export { CatalogPanel } from './CatalogPanel';
 export { LinkCallForm } from './LinkCallForm';
 export { LinkTel } from './LinkTel';
-export { ProductPrice } from './ProductPrice';
 export { SectionTitle } from './SectionTitle';

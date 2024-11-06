@@ -1,0 +1,7 @@
+@use 'shared/styles' as *;
+
+.Title {
+  padding: 11px 12px 10px;
+  color: $grey;
+  @include font-16-reg-16_26;
+}

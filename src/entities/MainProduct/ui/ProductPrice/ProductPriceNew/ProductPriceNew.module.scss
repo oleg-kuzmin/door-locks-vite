@@ -1,14 +1,11 @@
 @use 'shared/styles' as *;
 
 .ProductPriceNew {
+  color: $black;
   text-decoration: none;
-
-  &_Type_Desktop {
+  @include font-pro-text-semibold(18px);
+  @include media-desktop {
     @include font-pro-text-semibold(24px);
-  }
-
-  &_Type_Mobile {
-    @include font-pro-text-semibold(18px);
   }
 
   &:after {
