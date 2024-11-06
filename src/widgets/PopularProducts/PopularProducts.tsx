@@ -99,28 +99,28 @@ export function PopularProducts({ className }: Readonly<PopularProductsProps>) {
           setIndexActiveSlide(swiper.realIndex + 1);
         }}>
         <SwiperSlide className={styles.PopularProducts__Slide}>
-          <ProductCard text="1" />
+          <ProductCard />
         </SwiperSlide>
         <SwiperSlide className={styles.PopularProducts__Slide}>
-          <ProductCard text="2" />
+          <ProductCard />
         </SwiperSlide>
         <SwiperSlide className={styles.PopularProducts__Slide}>
-          <ProductCard text="3" />
+          <ProductCard />
         </SwiperSlide>
         <SwiperSlide className={styles.PopularProducts__Slide}>
-          <ProductCard text="4" />
+          <ProductCard />
         </SwiperSlide>
         <SwiperSlide className={styles.PopularProducts__Slide}>
-          <ProductCard text="5" />
+          <ProductCard />
         </SwiperSlide>
         <SwiperSlide className={styles.PopularProducts__Slide}>
-          <ProductCard text="6" />
+          <ProductCard />
         </SwiperSlide>
         <SwiperSlide className={styles.PopularProducts__Slide}>
-          <ProductCard text="7" />
+          <ProductCard />
         </SwiperSlide>
         <SwiperSlide className={styles.PopularProducts__Slide}>
-          <ProductCard text="8" />
+          <ProductCard />
         </SwiperSlide>
       </Swiper>
     </section>

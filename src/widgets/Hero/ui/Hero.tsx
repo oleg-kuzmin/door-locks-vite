@@ -6,7 +6,7 @@ import { HeroPagination } from './HeroPagination';
 import { HeroUi } from './HeroUi';
 import { PaginationBullet } from './PaginationBullet';
 import 'swiper/css';
-import { Autoplay } from 'swiper/modules';
+// import { Autoplay } from 'swiper/modules';
 import { MainProduct } from 'entities/MainProduct';
 import styles from './Hero.module.scss';
 
