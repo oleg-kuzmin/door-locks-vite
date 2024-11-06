@@ -1,0 +1,10 @@
+@use 'shared/styles' as *;
+
+.PriceOld {
+  color: $extraLightGrey;
+  @include font-pro-text-light(18px);
+
+  &:after {
+    content: '\20BD';
+  }
+}

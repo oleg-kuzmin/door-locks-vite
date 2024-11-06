@@ -1,0 +1,11 @@
+@use 'shared/styles' as *;
+
+.PriceNew {
+  color: $black;
+  text-decoration: none;
+  @include font-pro-text-semibold(20px);
+
+  &:after {
+    content: '\20BD';
+  }
+}

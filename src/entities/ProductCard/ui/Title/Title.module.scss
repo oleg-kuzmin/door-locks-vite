@@ -1,7 +1,11 @@
 @use 'shared/styles' as *;
 
 .Title {
-  padding: 11px 12px 10px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  line-clamp: 2;
+  overflow: hidden;
   color: $grey;
   @include font-16-reg-16_26;
 }

@@ -1,5 +1,11 @@
 @use 'shared/styles' as *;
 
 .InfoBlock {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   background-color: $white;
+  box-shadow:
+    inset -1px 0 0 0 $stroke,
+    inset 1px 0 0 0 $stroke,
+    inset 0 -1px 0 0 $stroke;
 }

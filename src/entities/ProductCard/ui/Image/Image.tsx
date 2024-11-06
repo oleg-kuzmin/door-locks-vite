@@ -8,5 +8,5 @@ interface ImageProps {
 
 export function Image({ src, alt, className }: Readonly<ImageProps>) {
   const externalClass = className ? ` ${className}` : '';
-  return <img className={styles.Image + externalClass} src={src}></img>;
+  return <img className={styles.Image + externalClass} src={src} alt={alt}></img>;
 }

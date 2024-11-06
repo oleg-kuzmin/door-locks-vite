@@ -2,13 +2,45 @@
 
 .ProductCard {
   display: flex;
+  position: relative;
   flex-direction: column;
   width: 288px;
   min-height: 426px;
   margin: 0 auto; // todo
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.33);
+  background-color: $bgRGBA3;
   color: $white;
+  user-select: none;
   @include font-H1;
   @include effect-hover-shadow-black;
+
+  &__StockCheck {
+    position: absolute;
+    top: 17px;
+    left: 12px;
+  }
+
+  &__Present {
+    position: absolute;
+    top: 49px;
+    left: 12px;
+  }
+
+  &__Sale {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+  }
+
+  &__Image {
+    margin-top: 40px;
+  }
+
+  &__Title {
+    margin: 11px 12px 11px;
+  }
+
+  &__Price {
+    margin: 0 12px 12px;
+  }
 }

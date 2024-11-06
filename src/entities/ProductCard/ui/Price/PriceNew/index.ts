@@ -1,0 +1,1 @@
+export { PriceNew } from './PriceNew';

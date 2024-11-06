@@ -1,0 +1,7 @@
+@use 'shared/styles' as *;
+
+.Price {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

@@ -7,6 +7,7 @@
   width: 51px;
   height: 30px;
   background-color: $white;
+  box-shadow: 0 2px 5px 0 $bgRGBA3;
   color: $black;
   text-transform: uppercase;
   @include font-pro-text-medium(12px);
