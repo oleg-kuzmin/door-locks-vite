@@ -1,13 +1,10 @@
 import { ProductDescription } from './ProductDescription';
 import { ProductImage } from './ProductImage';
 import { ProductInfo } from './ProductInfo';
-import { ProductPrice } from './ProductPrice';
-import { ProductPriceNew } from './ProductPriceNew';
-import { ProductPriceOld } from './ProductPriceOld';
 import { ProductPriceTitle } from './ProductPriceTitle';
 import { ProductTitle } from './ProductTitle';
-import { addWhiteSpacesPrice } from 'shared/lib';
-import { ButtonMain } from 'shared/ui';
+import { addWhiteSpacesPrice, useMediaDesktop } from 'shared/lib';
+import { ButtonMain, ProductPrice } from 'shared/ui';
 import styles from './MainProduct.module.scss';
 
 interface MainProductProps {
@@ -16,9 +13,15 @@ interface MainProductProps {
 
 export function MainProduct({ className }: Readonly<MainProductProps>) {
   const externalClass = className ? ` ${className}` : '';
-
+  const mediaDesktop = useMediaDesktop();
   const newPrice = addWhiteSpacesPrice('33000');
   const oldPrice = addWhiteSpacesPrice('37000');
+
+  const productPrice = mediaDesktop ? (
+    <ProductPrice type="desktop" newPrice={newPrice} oldPrice={oldPrice} />
+  ) : (
+    <ProductPrice type="mobile" newPrice={newPrice} oldPrice={oldPrice} />
+  );
 
   return (
     <article className={styles.MainProduct + externalClass}>
@@ -30,10 +33,7 @@ export function MainProduct({ className }: Readonly<MainProductProps>) {
           text="Замок дверной электронный Golden Soft GS-200Z-5 имеет роскошный глянцевый блеск, четкие линии, красивые формы. "
         />
         <ProductPriceTitle className={styles.MainProduct__PriceTitle} />
-        <ProductPrice>
-          <ProductPriceNew text={newPrice} />
-          <ProductPriceOld text={oldPrice} />
-        </ProductPrice>
+        {productPrice}
         <ButtonMain className={styles.MainProduct__ButtonMain} text="Добавить в корзину" onClick={() => {}} />
       </ProductInfo>
     </article>

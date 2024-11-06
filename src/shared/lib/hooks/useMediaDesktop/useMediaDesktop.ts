@@ -18,5 +18,5 @@ export function useMediaQuery(query: string) {
 export function useMediaDesktop() {
   const { desktop } = styles;
   const mediaDesktop = useMediaQuery(`(width >= ${desktop})`);
-  return { mediaDesktop };
+  return mediaDesktop;
 }

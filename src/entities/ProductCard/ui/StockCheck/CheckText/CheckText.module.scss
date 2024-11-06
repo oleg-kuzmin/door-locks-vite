@@ -1,0 +1,6 @@
+@use 'shared/styles' as *;
+
+.CheckText {
+  color: $grey;
+  @include font-14-reg-14_24;
+}

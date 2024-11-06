@@ -1,0 +1,10 @@
+@use 'shared/styles' as *;
+
+.PresentIcon {
+  width: 12px;
+  height: 12px;
+  background-image: url('/icons/present-icon.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

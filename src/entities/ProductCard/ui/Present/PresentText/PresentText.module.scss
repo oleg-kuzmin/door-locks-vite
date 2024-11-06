@@ -1,0 +1,6 @@
+@use 'shared/styles' as *;
+
+.PresentText {
+  color: $black;
+  @include font-pro-text-regular(12px);
+}

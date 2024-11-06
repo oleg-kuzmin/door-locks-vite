@@ -10,7 +10,7 @@ interface CategoriesProps {
 
 export function Categories({ className }: Readonly<CategoriesProps>) {
   const externalClass = className ? ` ${className}` : '';
-  const { mediaDesktop } = useMediaDesktop();
+  const mediaDesktop = useMediaDesktop();
 
   return (
     <section className={styles.Categories + externalClass}>

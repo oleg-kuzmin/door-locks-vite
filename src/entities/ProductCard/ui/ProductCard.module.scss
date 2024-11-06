@@ -2,12 +2,12 @@
 
 .ProductCard {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   width: 288px;
-  height: 426px;
-  border-radius: 20px;
-  background-color: $main;
+  min-height: 426px;
+  margin: 0 auto; // todo
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.33);
   color: $white;
   @include font-H1;
   @include effect-hover-shadow-black;

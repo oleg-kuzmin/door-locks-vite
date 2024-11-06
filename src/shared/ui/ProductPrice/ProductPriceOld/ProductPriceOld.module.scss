@@ -2,8 +2,12 @@
 
 .ProductPriceOld {
   color: $extraLightGrey;
-  @include font-pro-text-light(14px);
-  @include media-desktop {
+
+  &_Type_Mobile {
+    @include font-pro-text-light(14px);
+  }
+
+  &_Type_Desktop {
     @include font-pro-text-light(22px);
   }
 
