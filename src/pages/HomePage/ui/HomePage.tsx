@@ -4,7 +4,6 @@ import { Header } from 'widgets/Header';
 import { Hero } from 'widgets/Hero';
 import { PopularProducts } from 'widgets/PopularProducts';
 import { Statistics } from 'widgets/Statistics';
-import { ProductCard } from 'entities/ProductCard';
 import styles from './HomePage.module.scss';
 
 export function HomePage() {
