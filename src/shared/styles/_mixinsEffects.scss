@@ -57,12 +57,12 @@
   }
 }
 
-@mixin effect-hover-shadow-black {
+@mixin effect-hover-shadow-main {
   border-radius: 10px;
   transition: box-shadow $hover;
   &:hover {
     box-shadow:
-      2px 2px 8px $black,
-      -2px -2px 8px $black;
+      2px 2px 8px $main,
+      -2px -2px 8px $main;
   }
 }

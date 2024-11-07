@@ -10,6 +10,6 @@
 
   &__Link {
     @include effect-focus-main;
-    @include effect-hover-shadow-black;
+    @include effect-hover-shadow-main;
   }
 }

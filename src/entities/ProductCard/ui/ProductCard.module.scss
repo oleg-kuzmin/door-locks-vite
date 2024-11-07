@@ -12,7 +12,7 @@
   cursor: pointer;
   user-select: none;
   @include font-H1;
-  @include effect-hover-shadow-black;
+  @include effect-hover-shadow-main;
 
   &__StockCheck {
     position: absolute;
