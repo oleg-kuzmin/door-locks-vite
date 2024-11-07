@@ -6,7 +6,7 @@ import { HeroPagination } from './HeroPagination';
 import { HeroUi } from './HeroUi';
 import { PaginationBullet } from './PaginationBullet';
 import 'swiper/css';
-// import { Autoplay } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 import { MainProduct } from 'entities/MainProduct';
 import styles from './Hero.module.scss';
 
@@ -23,7 +23,7 @@ export function Hero({ className }: Readonly<HeroProps>) {
     allowTouchMove: true,
     initialSlide: 1,
     loop: true,
-    // modules: [Autoplay],
+    modules: [Autoplay],
     slidesPerView: 1,
     spaceBetween: 16,
     speed: 1000,
