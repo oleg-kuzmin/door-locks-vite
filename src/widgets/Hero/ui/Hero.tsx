@@ -5,9 +5,9 @@ import { HeroContent } from './HeroContent';
 import { HeroPagination } from './HeroPagination';
 import { HeroUi } from './HeroUi';
 import { PaginationBullet } from './PaginationBullet';
-import 'swiper/css';
-// import { Autoplay } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 import { MainProduct } from 'entities/MainProduct';
+import 'swiper/css';
 import styles from './Hero.module.scss';
 
 interface HeroProps {
@@ -20,10 +20,10 @@ export function Hero({ className }: Readonly<HeroProps>) {
   const externalClass = className ? ` ${className}` : '';
 
   const swiperConfig = {
-    allowTouchMove: true,
+    allowTouchMove: false,
     initialSlide: 1,
     loop: true,
-    // modules: [Autoplay],
+    modules: [Autoplay],
     slidesPerView: 1,
     spaceBetween: 16,
     speed: 1000,

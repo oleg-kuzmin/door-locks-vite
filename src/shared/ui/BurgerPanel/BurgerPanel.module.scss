@@ -1,10 +1,18 @@
 @use 'shared/styles' as *;
 
 .BurgerPanel {
-  width: 100%;
-  height: calc(100vh - 100%);
+  width: 98%;
+  height: 45vh;
+  max-height: 812px;
   padding-top: 8px;
+  border-right: 1px solid $black;
+  border-bottom: 1px solid $black;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: rgba($color: $white, $alpha: 0.9);
+  box-shadow:
+    2px 2px 8px $black,
+    -2px -2px 8px $black;
 
   &__LinkCallForm {
     color: $main;

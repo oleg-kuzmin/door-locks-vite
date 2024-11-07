@@ -1,7 +1,6 @@
 @use './vars' as *;
 
 @mixin effect-focus-main {
-  cursor: pointer;
   &:focus-visible {
     border-radius: 2px;
     outline: $main 2px solid;
@@ -9,7 +8,6 @@
 }
 
 @mixin effect-focus-primary {
-  cursor: pointer;
   &:focus-visible {
     border-radius: 2px;
     outline: $primary 2px solid;
@@ -17,7 +15,6 @@
 }
 
 @mixin effect-hover-main {
-  cursor: pointer;
   transition: color $hover;
   user-select: none;
   &:hover {
@@ -26,7 +23,6 @@
 }
 
 @mixin effect-hover-grey {
-  cursor: pointer;
   transition: color $hover;
   user-select: none;
   &:hover {
@@ -35,7 +31,6 @@
 }
 
 @mixin effect-hover-icon {
-  cursor: pointer;
   user-select: none;
   &::after {
     transition: opacity $hover;
@@ -46,7 +41,6 @@
 }
 
 @mixin effect-hover-button-main {
-  cursor: pointer;
   transition:
     border-color $hover,
     background-color $hover,
@@ -63,13 +57,12 @@
   }
 }
 
-@mixin effect-hover-shadow-black {
+@mixin effect-hover-shadow-main {
   border-radius: 10px;
-  cursor: pointer;
   transition: box-shadow $hover;
   &:hover {
     box-shadow:
-      2px 2px 8px $black,
-      -2px -2px 8px $black;
+      2px 2px 8px $main,
+      -2px -2px 8px $main;
   }
 }

@@ -3,7 +3,7 @@
 .BurgerLinks {
   display: flex;
   flex-direction: column;
-  padding-bottom: 61px;
+  padding-bottom: 30px;
   gap: 20px;
 
   @include media-mobile-M {

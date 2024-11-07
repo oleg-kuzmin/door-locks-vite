@@ -7,6 +7,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-color: transparent;
+  cursor: pointer;
   transition: opacity $hover;
   @include effect-focus-main;
 
