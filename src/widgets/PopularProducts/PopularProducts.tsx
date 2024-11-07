@@ -23,7 +23,6 @@ export function PopularProducts({ className }: Readonly<PopularProductsProps>) {
     slidesPerView: 'auto' as const,
     slidesPerGroupAuto: true,
     spaceBetween: 10,
-    speed: 500,
     breakpoints: {
       0: {
         allowTouchMove: true,
@@ -40,6 +39,7 @@ export function PopularProducts({ className }: Readonly<PopularProductsProps>) {
       1440: {
         allowTouchMove: false,
         slidesPerGroup: 4,
+        speed: 1000,
       },
     },
   };
