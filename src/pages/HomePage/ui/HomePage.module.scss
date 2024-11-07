@@ -14,4 +14,11 @@
       padding-bottom: 101px;
     }
   }
+
+  &__PopularProducts {
+    padding-bottom: 36px;
+    @include media-desktop {
+      padding-bottom: 96px;
+    }
+  }
 }

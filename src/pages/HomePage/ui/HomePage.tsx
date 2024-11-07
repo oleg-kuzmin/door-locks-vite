@@ -14,7 +14,7 @@ export function HomePage() {
       <Statistics />
       <Advantages className={styles.HomePage__Advantages} />
       <Categories className={styles.HomePage__Categories} />
-      <PopularProducts />
+      <PopularProducts className={styles.HomePage__PopularProducts}/>
     </>
   );
 }

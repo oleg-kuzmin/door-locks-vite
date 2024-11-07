@@ -58,7 +58,7 @@ export function PopularProducts({ className }: Readonly<PopularProductsProps>) {
         setIsButtonsDisabled({ prev: true, next: false });
       }
       if (!isPossiblePrev && !isPossibleNext) {
-        setIsButtonsDisabled({ prev: false, next: false });
+        setIsButtonsDisabled({ prev: true, next: true });
       }
     }
   };
