@@ -1,0 +1,43 @@
+@use 'shared/styles' as *;
+
+.CallForm {
+  background-color: $bgLight;
+
+  &__SectionTitle {
+    margin-bottom: 16px;
+    @include media-laptop {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__FormSubtitle {
+    margin-bottom: 24px;
+    @include media-mobile-L {
+      max-width: 400px;
+    }
+    @include media-laptop {
+      max-width: 518px;
+    }
+    @include media-desktop {
+      margin-bottom: 23px;
+    }
+  }
+
+  &__FormInput {
+    @include media-mobile-L {
+      width: 240px;
+    }
+  }
+
+  &__ButtonMain {
+    width: 100%;
+    margin-top: 8px;
+    @include media-mobile-L {
+      width: 240px;
+    }
+    @include media-laptop {
+      width: 220px;
+      margin-top: 0;
+    }
+  }
+}
