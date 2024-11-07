@@ -10,6 +10,7 @@
   border-radius: 5px;
   background-color: $main;
   color: $white;
+  cursor: pointer;
   @include font-button-txt;
   @include effect-hover-button-main;
   @include effect-focus-primary;
