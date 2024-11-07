@@ -3,6 +3,7 @@
 .MainProduct {
   display: flex;
   flex-direction: column;
+  user-select: none;
   @include media-mobile-L {
     align-items: center;
   }
