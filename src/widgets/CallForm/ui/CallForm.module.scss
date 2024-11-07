@@ -1,0 +1,18 @@
+@use 'shared/styles' as *;
+
+.CallForm {
+  background-color: $bgLight;
+
+  &__SectionTitle {
+    margin-bottom: 16px;
+    @include media-desktop {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__FormSubtitle {
+    @include media-desktop {
+      max-width: 518px;
+    }
+  }
+}
